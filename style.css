@@ -7,7 +7,7 @@ body {
     align-items: center; 
     background-color: #1f2937;
     color: white;
-    padding: 0px 300px;
+    padding: 30px 300px;
     }
 .logo {
     font-size: 24px;
@@ -52,6 +52,36 @@ body {
     border-radius: 6px;
     font-size: 16px;
     font-weight: 800;
+}
+.third-section {
+    display: flex;
+    padding: 30px 400px;
+    flex-flow: column wrap;
+}
+.third-section > .info {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 40px 0px;
+}
+.third-section > .container {
+    display: flex;
+    gap: 50px;
+}
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex: auto;
+}
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid #3882f6 6px;
+    border-radius: 20px;
 }
 ul {
     display: flex;
